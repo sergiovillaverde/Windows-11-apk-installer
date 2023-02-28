@@ -1,6 +1,6 @@
 import os, sys
 
-os.chdir(r'C:\Users\sergi\Documents\Android\ADB\platform-tools')
+os.chdir(r'Your ADB drivers')
 os.system('cmd /c "adb connect 127.0.0.1:58526"')
 
 for app in sys.argv[1:]:
